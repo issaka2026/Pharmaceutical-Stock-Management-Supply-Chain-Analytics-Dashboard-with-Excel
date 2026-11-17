@@ -1,0 +1,61 @@
+﻿Product_ID,Product_Name,Strength,Dosage_Form,Category,Unit_of_Measure,Unit_Price_XOF,Average_Monthly_Demand_National,Minimum_Stock_Qty,Maximum_Stock_Qty,Safety_Stock_Qty,Lead_Time_Days,Storage_Condition,ABC_Class,Essential_Medicine_Flag
+PRD-001,Paracetamol,500 mg,Tablet,Analgesics,tablet,23.0,18000,8100,63000,6300,21,"Store below 30°C, dry place",B,No
+PRD-002,Amoxicillin,500 mg,Capsule,Antibiotics,capsule,56.0,6500,2925,22750,2275,42,"Store below 30°C, dry place",B,Yes
+PRD-003,Amoxicillin,250 mg/5 ml,Suspension,Antibiotics,unit,407.0,1800,810,6300,630,35,"Store below 30°C, dry place",B,Yes
+PRD-004,Artemether/Lumefantrine,20/120 mg,Tablet,Antimalarials,tablet,79.0,9500,4275,33250,3325,14,"Store below 30°C, dry place",B,Yes
+PRD-005,Artesunate,60 mg,Injection,Antimalarials,unit,1214.0,900,405,3150,315,14,"Store below 30°C, dry place",A,Yes
+PRD-006,ORS,20.5 g,Sachet,Essential Medicines,sachet,36.0,7000,3150,24500,2450,14,"Store below 30°C, dry place",C,Yes
+PRD-007,Zinc sulfate,20 mg,Tablet,Essential Medicines,tablet,30.0,4500,2025,15750,1575,21,"Store below 30°C, dry place",C,Yes
+PRD-008,Metronidazole,500 mg,Tablet,Antibiotics,tablet,39.0,3200,1440,11200,1120,56,"Store below 30°C, dry place",C,Yes
+PRD-009,Cotrimoxazole,400/80 mg,Tablet,Antibiotics,tablet,33.0,4000,1800,14000,1400,21,"Store below 30°C, dry place",C,Yes
+PRD-010,Ceftriaxone,1 g,Vial,Antibiotics,unit,512.0,1200,540,4200,420,56,"Store below 30°C, dry place",B,Yes
+PRD-011,Gentamicin,80 mg/2 ml,Injection,Antibiotics,unit,138.0,900,405,3150,315,35,"Store below 30°C, dry place",C,Yes
+PRD-012,Oxytocin,10 IU/ml,Injection,Maternal Health,unit,210.0,700,315,2450,244,42,"Store below 30°C, dry place",C,Yes
+PRD-013,Magnesium sulfate,50% 10 ml,Injection,Maternal Health,unit,177.0,600,270,2100,210,14,"Store below 30°C, dry place",C,Yes
+PRD-014,Iron/Folic Acid,60/0.4 mg,Tablet,Maternal Health,tablet,16.0,8500,3825,29750,2975,35,"Store below 30°C, dry place",C,Yes
+PRD-015,Vitamin A,"200,000 IU",Capsule,Nutrition,capsule,46.0,2800,1260,9800,979,35,"Store below 30°C, dry place",C,No
+PRD-016,Albendazole,400 mg,Tablet,Essential Medicines,tablet,23.0,5000,2250,17500,1750,42,"Store below 30°C, dry place",C,Yes
+PRD-017,Amlodipine,5 mg,Tablet,NCD Medicines,tablet,30.0,3500,1575,12250,1225,35,"Store below 30°C, dry place",C,No
+PRD-018,Enalapril,10 mg,Tablet,NCD Medicines,tablet,39.0,1800,810,6300,630,42,"Store below 30°C, dry place",C,No
+PRD-019,Metformin,500 mg,Tablet,NCD Medicines,tablet,36.0,6000,2700,21000,2100,28,"Store below 30°C, dry place",C,No
+PRD-020,Glibenclamide,5 mg,Tablet,NCD Medicines,tablet,23.0,900,405,3150,315,42,"Store below 30°C, dry place",C,No
+PRD-021,Salbutamol,100 mcg,Inhaler,Respiratory,unit,820.0,500,225,1750,175,14,"Store below 30°C, dry place",B,No
+PRD-022,Beclometasone,50 mcg,Inhaler,Respiratory,unit,1082.0,350,157,1225,122,56,"Store below 30°C, dry place",B,No
+PRD-023,Diazepam,5 mg,Tablet,Emergency Medicines,tablet,26.0,700,315,2450,244,56,"Store below 30°C, dry place",C,No
+PRD-024,Adrenaline,1 mg/ml,Injection,Emergency Medicines,unit,125.0,450,202,1575,157,14,"Store below 30°C, dry place",C,No
+PRD-025,Ringer Lactate,500 ml,Infusion,Infusion Fluids,unit,276.0,2200,990,7700,770,56,"Store below 30°C, dry place",B,No
+PRD-026,Normal Saline,0.9% 500 ml,Infusion,Infusion Fluids,unit,249.0,2600,1170,9100,909,42,"Store below 30°C, dry place",B,No
+PRD-027,Dextrose,5% 500 ml,Infusion,Infusion Fluids,unit,262.0,1400,630,4900,489,28,"Store below 30°C, dry place",B,No
+PRD-028,Surgical gloves,Pair,Pair,Medical Consumables,unit,59.0,12000,5400,42000,4200,56,"Store below 30°C, dry place",B,No
+PRD-029,Examination gloves,Pair,Pair,Medical Consumables,unit,36.0,18000,8100,63000,6300,28,"Store below 30°C, dry place",B,No
+PRD-030,Syringe,5 ml,Piece,Medical Consumables,unit,23.0,15000,6750,52500,5250,14,"Store below 30°C, dry place",B,No
+PRD-031,Syringe,10 ml,Piece,Medical Consumables,unit,30.0,10000,4500,35000,3500,28,"Store below 30°C, dry place",B,No
+PRD-032,Safety box,5 L,Piece,Medical Consumables,unit,558.0,1200,540,4200,420,35,"Store below 30°C, dry place",B,No
+PRD-033,Rapid diagnostic test malaria,Kit,Test,Diagnostics,unit,210.0,4500,2025,15750,1575,21,"Store below 30°C, dry place",B,No
+PRD-034,HIV rapid test,Kit,Test,Diagnostics,unit,276.0,2200,990,7700,770,35,"Store below 30°C, dry place",B,No
+PRD-035,Pregnancy test,Strip,Test,Diagnostics,unit,52.0,1600,720,5600,560,14,"Store below 30°C, dry place",C,No
+PRD-036,Chlorhexidine,7.1%,Gel,Maternal Health,unit,361.0,900,405,3150,315,56,"Store below 30°C, dry place",B,Yes
+PRD-037,Tetanus vaccine,0.5 ml,Dose,Vaccines,unit,754.0,1200,540,4200,420,56,Cold chain 2-8°C,B,No
+PRD-038,BCG vaccine,Multi-dose vial,Vial,Vaccines,unit,1837.0,350,157,1225,122,28,Cold chain 2-8°C,B,No
+PRD-039,Measles vaccine,Multi-dose vial,Vial,Vaccines,unit,1443.0,500,225,1750,175,42,Cold chain 2-8°C,B,No
+PRD-040,Insulin human,100 IU/ml,Vial,NCD Medicines,unit,1705.0,300,135,1050,105,21,Cold chain 2-8°C,B,No
+PRD-041,ORS low osmolarity,Sachet,Sachet,Essential Medicines,sachet,39.0,3500,1575,12250,1225,42,"Store below 30°C, dry place",C,Yes
+PRD-042,Iodized salt,1 kg,Pack,Nutrition,unit,295.0,500,225,1750,175,14,"Store below 30°C, dry place",C,No
+PRD-043,Cotton wool,500 g,Pack,Medical Consumables,unit,722.0,800,360,2800,280,56,"Store below 30°C, dry place",B,No
+PRD-044,Gauze swab,10x10 cm,Pack,Medical Consumables,unit,144.0,3000,1350,10500,1050,28,"Store below 30°C, dry place",B,No
+PRD-045,Bandage,10 cm,Roll,Medical Consumables,unit,118.0,2500,1125,8750,875,56,"Store below 30°C, dry place",B,No
+PRD-046,Povidone iodine,10% 100 ml,Bottle,Medical Consumables,unit,426.0,700,315,2450,244,42,"Store below 30°C, dry place",B,No
+PRD-047,Lidocaine,2% 20 ml,Vial,Emergency Medicines,unit,315.0,450,202,1575,157,42,"Store below 30°C, dry place",C,No
+PRD-048,Furosemide,40 mg,Tablet,NCD Medicines,tablet,26.0,2200,990,7700,770,21,"Store below 30°C, dry place",C,No
+PRD-049,Omeprazole,20 mg,Capsule,Essential Medicines,capsule,36.0,4000,1800,14000,1400,21,"Store below 30°C, dry place",C,Yes
+PRD-050,Ciprofloxacin,500 mg,Tablet,Antibiotics,tablet,49.0,2500,1125,8750,875,28,"Store below 30°C, dry place",C,Yes
+PRD-051,Tetracycline eye ointment,1% 5 g,Tube,Essential Medicines,unit,164.0,900,405,3150,315,21,"Store below 30°C, dry place",C,Yes
+PRD-052,ORS zinc co-pack,Co-pack,Pack,Essential Medicines,unit,79.0,1800,810,6300,630,42,"Store below 30°C, dry place",C,Yes
+PRD-053,Mebendazole,100 mg,Tablet,Essential Medicines,tablet,16.0,1800,810,6300,630,42,"Store below 30°C, dry place",C,Yes
+PRD-054,Vitamin B complex,Tablet,Tablet,Essential Medicines,tablet,23.0,1600,720,5600,560,14,"Store below 30°C, dry place",C,Yes
+PRD-055,Hydrocortisone,100 mg,Vial,Emergency Medicines,unit,361.0,500,225,1750,175,42,"Store below 30°C, dry place",C,No
+PRD-056,Loratadine,10 mg,Tablet,Essential Medicines,tablet,30.0,1200,540,4200,420,28,"Store below 30°C, dry place",C,Yes
+PRD-057,Amoxicillin/Clavulanic acid,625 mg,Tablet,Antibiotics,tablet,144.0,1000,450,3500,350,35,"Store below 30°C, dry place",C,Yes
+PRD-058,ORS paediatric,Sachet,Sachet,Essential Medicines,sachet,39.0,1800,810,6300,630,14,"Store below 30°C, dry place",C,Yes
+PRD-059,Disposable mask,3-ply,Piece,Medical Consumables,unit,12.0,20000,9000,70000,7000,14,"Store below 30°C, dry place",C,No
+PRD-060,Hand sanitizer,500 ml,Bottle,Medical Consumables,unit,918.0,600,270,2100,210,28,"Store below 30°C, dry place",B,No

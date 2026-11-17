@@ -1,0 +1,36 @@
+﻿Table_Name,Variable_Name,Description,Data_Type,Validation_Rule
+PRODUCTS,Product_ID,Unique product identifier,Text,Unique; primary key
+PRODUCTS,Product_Name,Generic product name,Text,Required
+PRODUCTS,Strength,Strength or concentration,Text,As supplied in product catalogue
+PRODUCTS,Dosage_Form,Pharmaceutical form,Text,Controlled vocabulary recommended
+PRODUCTS,Category,Therapeutic or supply category,Text,Required
+PRODUCTS,Unit_Price_XOF,Fictional unit acquisition value in CFA francs,Number,Non-negative
+PRODUCTS,Minimum_Stock_Qty,Minimum stock threshold,Integer,Non-negative
+PRODUCTS,Maximum_Stock_Qty,Maximum stock threshold,Integer,Greater than minimum
+PRODUCTS,Safety_Stock_Qty,Buffer stock quantity,Integer,Non-negative
+FACILITIES,Facility_ID,Unique facility identifier,Text,Unique; primary key
+FACILITIES,Facility_Type,Supply chain level,Text,Central/Regional/District/Health Centre
+FACILITIES,Parent_Facility_ID,Parent facility in the distribution hierarchy,Text,May be blank for central warehouse
+STOCK_DATA,Snapshot_Date,Date of stock snapshot,Date,One snapshot date in this dataset
+STOCK_DATA,On_Hand_Qty,Physical quantity counted on hand,Integer,Non-negative
+STOCK_DATA,Reserved_Qty,Quantity reserved for specific orders/patients,Integer,Non-negative
+STOCK_DATA,Damaged_Qty,Damaged or unusable quantity,Integer,Non-negative
+STOCK_DATA,Expired_Qty,Expired quantity,Integer,Non-negative
+STOCK_DATA,Available_Qty,Quantity considered available for use,Integer,"On hand less reserved, damaged and expired"
+STOCK_DATA,In_Transit_Qty,Quantity ordered/dispatched but not yet received,Integer,Not included in available stock
+STOCK_DATA,Months_of_Stock,Available stock divided by average monthly consumption,Decimal,Null when consumption is zero
+TRANSACTIONS,Transaction_ID,Unique stock movement identifier,Text,Unique; primary key
+TRANSACTIONS,Transaction_Type,Type of stock movement,Text,Receipt/Issue/Transfer/Adjustment
+TRANSACTIONS,Quantity_In,Quantity entering the facility,Integer,Non-negative
+TRANSACTIONS,Quantity_Out,Quantity leaving the facility,Integer,Non-negative
+CONSUMPTION,Month,Consumption reporting month,YYYY-MM,One row per product-facility-month in this sample
+CONSUMPTION,Quantity_Consumed,Quantity consumed during the month,Integer,Non-negative
+CONSUMPTION,Days_Out_Of_Stock,Number of days unavailable during reporting month,Integer,0 to 31
+SUPPLY_ORDERS,Order_ID,Unique purchase/replenishment order,Text,Unique; primary key
+SUPPLY_ORDERS,Ordered_Qty,Quantity requested,Integer,Non-negative
+SUPPLY_ORDERS,Delivered_Qty,Quantity received against order,Integer,Not greater than ordered quantity
+SUPPLY_ORDERS,Expected_Delivery_Date,Expected delivery date,Date,Required
+SUPPLY_ORDERS,Actual_Delivery_Date,Actual receipt date,Date,Blank if not yet received
+EXPIRY_TRACKING,Batch_ID,Unique lot identifier in expiry table,Text,Unique; primary key
+EXPIRY_TRACKING,Expiry_Date,Batch expiry date,Date,Required
+EXPIRY_TRACKING,Batch_Qty_Remaining,Remaining quantity in the lot,Integer,Non-negative

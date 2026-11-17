@@ -1,0 +1,45 @@
+﻿Facility_ID,Facility_Name,Facility_Type,Region,District,Parent_Facility_ID,Latitude,Longitude
+WH-CENT-001,National Central Medical Warehouse,Central Warehouse,Niamey,Niamey Central,,13.5116,2.1254
+WH-REG-001,Niamey Regional Depot,Regional Depot,Niamey,Niamey Central,WH-CENT-001,16.1971,0.3001
+WH-REG-002,Dosso Regional Depot,Regional Depot,Dosso,Dosso,WH-CENT-001,14.3751,2.6785
+WH-REG-003,Maradi Regional Depot,Regional Depot,Maradi,Maradi,WH-CENT-001,16.6824,8.1204
+WH-REG-004,Tahoua Regional Depot,Regional Depot,Tahoua,Tahoua,WH-CENT-001,17.4609,1.0433
+WH-REG-005,Zinder Regional Depot,Regional Depot,Zinder,Zinder,WH-CENT-001,15.1096,0.3576
+WH-REG-006,Agadez Regional Depot,Regional Depot,Agadez,Agadez,WH-CENT-001,14.0932,6.0643
+WH-REG-007,Diffa Regional Depot,Regional Depot,Diffa,Diffa,WH-CENT-001,13.1327,2.3861
+DIST-DOS-001,Dosso District Pharmacy,District Pharmacy,Dosso,Dosso,WH-REG-002,16.2494,6.5393
+DIST-DOS-002,Gaya District Pharmacy,District Pharmacy,Dosso,Gaya,WH-REG-002,14.1022,7.0712
+DIST-MAR-001,Maradi District Pharmacy,District Pharmacy,Maradi,Maradi,WH-REG-003,17.0472,0.078
+DIST-MAR-002,Guidan Roumdji District Pharmacy,District Pharmacy,Maradi,Guidan Roumdji,WH-REG-003,17.0291,8.3777
+DIST-TAH-001,Tahoua District Pharmacy,District Pharmacy,Tahoua,Tahoua,WH-REG-004,14.7013,1.8658
+DIST-TAH-002,Birni N'Konni District Pharmacy,District Pharmacy,Tahoua,Birni N'Konni,WH-REG-004,17.7861,4.0391
+DIST-ZIN-001,Zinder District Pharmacy,District Pharmacy,Zinder,Zinder,WH-REG-005,13.4637,1.1606
+DIST-ZIN-002,Mirriah District Pharmacy,District Pharmacy,Zinder,Mirriah,WH-REG-005,17.2375,7.2447
+DIST-AGA-001,Agadez District Pharmacy,District Pharmacy,Agadez,Agadez,WH-REG-006,17.0356,8.7568
+DIST-DIF-001,Diffa District Pharmacy,District Pharmacy,Diffa,Diffa,WH-REG-007,15.6811,11.6774
+DIST-NIA-001,Niamey District Pharmacy I,District Pharmacy,Niamey,Niamey Central,WH-REG-001,14.8927,6.6245
+DIST-NIA-002,Niamey District Pharmacy II,District Pharmacy,Niamey,Niamey Central,WH-REG-001,17.147,7.4222
+CSI-001,Integrated Health Centre 01,Integrated Health Centre,Dosso,Dosso,DIST-DOS-001,17.3085,6.9282
+CSI-002,Integrated Health Centre 02,Integrated Health Centre,Dosso,Gaya,DIST-DOS-002,16.5229,0.5499
+CSI-003,Integrated Health Centre 03,Integrated Health Centre,Maradi,Maradi,DIST-MAR-001,14.1395,3.4727
+CSI-004,Integrated Health Centre 04,Integrated Health Centre,Maradi,Guidan Roumdji,DIST-MAR-002,13.399,2.7935
+CSI-005,Integrated Health Centre 05,Integrated Health Centre,Tahoua,Tahoua,DIST-TAH-001,13.505,3.3357
+CSI-006,Integrated Health Centre 06,Integrated Health Centre,Tahoua,Birni N'Konni,DIST-TAH-002,16.1784,4.378
+CSI-007,Integrated Health Centre 07,Integrated Health Centre,Zinder,Zinder,DIST-ZIN-001,14.8509,2.5141
+CSI-008,Integrated Health Centre 08,Integrated Health Centre,Zinder,Mirriah,DIST-ZIN-002,14.3349,11.2399
+CSI-009,Integrated Health Centre 09,Integrated Health Centre,Agadez,Agadez,DIST-AGA-001,16.2402,7.3096
+CSI-010,Integrated Health Centre 10,Integrated Health Centre,Diffa,Diffa,DIST-DIF-001,13.8557,8.7495
+CSI-011,Integrated Health Centre 11,Integrated Health Centre,Niamey,Niamey Central,DIST-NIA-001,13.817,4.5535
+CSI-012,Integrated Health Centre 12,Integrated Health Centre,Niamey,Niamey Central,DIST-NIA-002,17.9476,7.68
+CSI-013,Integrated Health Centre 13,Integrated Health Centre,Dosso,Dosso,DIST-DOS-001,15.7847,8.2154
+CSI-014,Integrated Health Centre 14,Integrated Health Centre,Dosso,Gaya,DIST-DOS-002,17.2143,9.312
+CSI-015,Integrated Health Centre 15,Integrated Health Centre,Maradi,Maradi,DIST-MAR-001,14.1452,0.3852
+CSI-016,Integrated Health Centre 16,Integrated Health Centre,Maradi,Guidan Roumdji,DIST-MAR-002,14.5773,3.2129
+CSI-017,Integrated Health Centre 17,Integrated Health Centre,Tahoua,Tahoua,DIST-TAH-001,14.0549,11.3149
+CSI-018,Integrated Health Centre 18,Integrated Health Centre,Tahoua,Birni N'Konni,DIST-TAH-002,17.3818,3.7761
+CSI-019,Integrated Health Centre 19,Integrated Health Centre,Zinder,Zinder,DIST-ZIN-001,16.2772,4.7476
+CSI-020,Integrated Health Centre 20,Integrated Health Centre,Zinder,Mirriah,DIST-ZIN-002,17.5727,5.5062
+CSI-021,Integrated Health Centre 21,Integrated Health Centre,Agadez,Agadez,DIST-AGA-001,14.3244,2.9595
+CSI-022,Integrated Health Centre 22,Integrated Health Centre,Diffa,Diffa,DIST-DIF-001,15.8068,3.1529
+CSI-023,Integrated Health Centre 23,Integrated Health Centre,Niamey,Niamey Central,DIST-NIA-001,15.9229,10.7739
+CSI-024,Integrated Health Centre 24,Integrated Health Centre,Niamey,Niamey Central,DIST-NIA-002,14.997,2.6318
